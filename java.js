@@ -22,9 +22,9 @@ function playRound(){
     alert('BETWEEN 1 AND 100!!!')
   }
   else if(inputValue > number){
-    display.textContent = 'Ο αριθμος ειναι μικροτερος'
+    display.textContent = 'Πιο κατω'
   } else if(inputValue < number){
-    display.textContent = 'Ο αριθμος ειναι μεγαλυτερος'
+    display.textContent = 'Πιο πανω'
   } else {
     display.textContent = `Το βρηκες! Ο αριθμος ειναι ${number}`
     endGame()
