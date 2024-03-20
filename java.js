@@ -24,7 +24,7 @@ function playRound(){
   else if(inputValue > number){
     display.textContent = 'Ο αριθμος ειναι μικροτερος'
   } else if(inputValue < number){
-    display.textContent = 'Ο αριθμος ειναι μικροτερος'
+    display.textContent = 'Ο αριθμος ειναι μεγαλυτερος'
   } else {
     display.textContent = `Το βρηκες! Ο αριθμος ειναι ${number}`
     endGame()
