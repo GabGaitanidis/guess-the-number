@@ -7,9 +7,35 @@ body{
   min-height: 100vh;
   display: flex;
   justify-content: center;
+  flex-direction: column;
   align-items: center;
   background-color: #ffedd5;
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.name-container{
+  margin-bottom: 20px;
+  text-align: center;
+}
+.name-container h1{
+  color: black;
+}
+.name-container button{
+  background-color: coral;
+  font-size: 19px;
+}
+.name-container input{
+  margin: 10px;
+  background-color: white;
+}
+.name-display{
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+h2{
+  top: 91px;
+  
 }
 .display{
   display: flex;
